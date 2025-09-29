@@ -37,6 +37,10 @@ public class Main {
            
             
             }
+            
+            //6.- Ola mas alta
+            Anaisadormarejadas Analizador = new Anaisadormarejadas(datos);
+            Analizador.olaMasAlta();
         }
         
         catch(Exception e){
